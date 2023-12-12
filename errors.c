@@ -60,7 +60,7 @@ int _putfd(char c, int fd)
 		x = 0;
 	}
 	if (c != BUF_FLUSH)
-		buf[i++] = c;
+		buf[x++] = c;
 	return (1);
 }
 
